@@ -1,0 +1,32 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container{
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    
+    background-color: blanchedalmond;
+
+}
+
+.text{
+    font-size: 3rem;
+    color: blue;
+   
+
+}
+
+.btn{
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}

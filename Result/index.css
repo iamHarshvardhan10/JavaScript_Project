@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(114, 236, 114);
+}
+
+.row{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    background-color: rgb(109, 109, 240);
+    padding: 30px 40px;
+    border-radius: 20px;
+    border-top-left-radius: 50%;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.2);
+    
+}
+
+.col1{
+
+    width: 40%;
+    display: block;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 700;
+ 
+  
+
+}
+
+
+.col2 .form1>input{
+   height: 25px;
+   width: 100%;
+   border: none;
+   outline: none;
+  align-self: center;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+    color: rgb(1, 1, 30);
+    
+}
+
+.col2 .form1>::placeholder{
+    color: rgb(3, 3, 42);
+    font-size: 1.5rem;
+}
+.col2 .form2>::placeholder{
+    color: rgb(3, 3, 42);
+    font-size: 1.5rem;
+}
+.col2 .form3>::placeholder{
+    color: rgb(3, 3, 42);
+    font-size: 1.5rem;
+}
+.col2 .form4>::placeholder{
+    color: rgb(3, 3, 42);
+    font-size: 1.5rem;
+}
+.col2 .form5>::placeholder{
+    color: rgb(3, 3, 42);
+    font-size: 1.5rem;
+}
+.col2 .form2>input{
+    height: 25px;
+   width: 100%;
+   border: none;
+   outline: none;
+  align-self: center;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+    color: rgb(1, 1, 30);
+  
+}
+.col2 .form3>input{
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+   align-self: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+     color: rgb(1, 1, 30);
+   
+}
+.col2 .form4>input{
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+   align-self: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+     color: rgb(1, 1, 30);
+   
+}
+.col2 .form5>input{
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+   align-self: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+     color: rgb(1, 1, 30);
+  
+}
+
+.col2>button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(132, 40, 218);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.para{
+    margin-top: 50px;
+}

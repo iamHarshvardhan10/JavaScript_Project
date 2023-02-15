@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d5dd4;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #4a97df;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    
+     
+}
+
+.box::-webkit-scrollbar{
+    scale: none;
+}
+
+#item{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    display: block;
+    outline: none;
+    color: #6d5dd4;
+    background-color: #6ba3d7;
+    box-shadow: 0px 0px 1px blue;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: #6d5dd4;
+}
+
+#toDo_box li{
+    position: relative;
+    margin-top: 15px;
+    list-style: none;
+    background-color: #1c0c87;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 30px;
+    
+}
+
+#toDo_box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: #5f5a5a !important;
+}
